@@ -1,0 +1,85 @@
+* {
+     margin: 0;
+     padding: 0;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ body {
+     font-family: 'open sans', sans-serif;
+}
+ .table{
+     background: #fff;
+     box-shadow: 0 0 5px #000;
+     margin: 30px auto;
+     max-width: 400px;
+     overflow: hidden;
+     position: relative;
+     padding: 0;
+     margin-top: 100px;
+     border-radius: 10px;
+}
+ .table h1 {
+     padding: 25px 10px 20px 20px;
+     font-size: 28px;
+     font-weight: lighter;
+}
+ .table p {
+     padding: 0px 0 10px 20px;
+     font-weight: lighter;
+}
+ .head{
+     background-color: #0A31A2;
+     color: aliceblue;
+}
+ .field{
+     overflow:hidden;
+     border-bottom:1px solid ;
+     padding:8px o;
+     margin:30px 30px;
+}
+ .field input{
+     width: 90%;
+     border:none;
+     outline:none;
+     background:none;
+     color:black;
+     float:left;
+     margin:8px;
+     font-size: 15px;
+}
+ .button{
+     width:40%;
+     background:none;
+     background-color :#EA4716;
+     padding:7px;
+     color: aliceblue;
+     cursor:pointer;
+     margin:0px 125px;
+     font-weight: bold;
+     font-size:17px;
+}
+ a{
+     text-decoration: none;
+     color:darkslateblue;
+     font-weight: bold;
+}
+ .tooltip {
+     position: relative;
+     display: inline-block;
+}
+ .tooltip .tooltiptext {
+     visibility: hidden;
+     width: 120px;
+     background-color: black;
+     color: #fff;
+     text-align: center;
+     border-radius: 6px;
+     padding: 0 10px;
+     position: absolute;
+     top: -5px;
+     right: 105%;
+}
+ .tooltip:hover .tooltiptext {
+     visibility: visible;
+}
